@@ -8,7 +8,8 @@ const ModelosSchema = new Schema({
   AñoI: Number,
   AñoT: Number,
   Años: Array,
-  Img: String
+  Img: String,
+  AñosFormato: String
 }, {timestamps: true});
 
 
